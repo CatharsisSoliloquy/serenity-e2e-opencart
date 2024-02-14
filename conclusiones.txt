@@ -1,0 +1,31 @@
+En la prueba de la funcionalidad de una página web de compra, se ha implementado exitosamente la automatización End-to-End (E2E). Esta metodología de prueba ha sido esencial para verificar la eficacia del proceso de compra y ha proporcionado una visión integral de su desempeño. A continuación, se presentan los aspectos clave y los beneficios resultantes de esta implementación.
+
+Información Detallada:
+
+Validación de la Funcionalidad:
+La prueba funcional automatizada (E2E) ha validado de manera exitosa la eficacia del flujo de compra, desde la inclusión de productos en el carrito hasta la confirmación de la orden. Se ha verificado de manera satisfactoria la correcta visualización del carrito, la ejecución del proceso de "Checkout" como invitado y la confirmación de la compra con el mensaje "Your order has been placed!"
+
+Eficiencia en Pruebas:
+La automatización de la prueba E2E ha demostrado ser eficiente, ya que puede repetirse con precisión y rapidez, lo que ahorra tiempo en comparación con las pruebas manuales.
+
+Reproducibilidad de Resultados:
+La prueba automatizada puede ser ejecutada tantas veces como sea necesario, lo que garantiza la reproducibilidad de los resultados. Esto es especialmente útil para la detección de errores intermitentes.
+
+Serenity BDD como Framework:
+El uso de Serenity BDD como framework ha permitido la creación de pruebas legibles y mantenibles. Además, Serenity BDD proporciona informes detallados que pueden ayudar a entender el comportamiento del sistema durante las pruebas.
+
+Prácticas de Documentación:
+La creación de un archivo readme.txt con instrucciones paso a paso y un archivo conclusiones.txt con los hallazgos y conclusiones del ejercicio demuestra una buena práctica de documentación, lo que facilita la comprensión y reproducción de las pruebas por parte de otras personas.
+
+Control de Versiones con GitHub:
+Utilizar GitHub para alojar el código de la prueba ha asegurado una gestión efectiva de versiones.
+Facilita el seguimiento de cambios y promueve la colaboración eficiente entre desarrolladores.
+
+Hallazgos:
+
+Durante la implementación de las pruebas E2E, se encontraron desafíos en la identificación de ciertos elementos de la página web. Algunos elementos carecían de atributos únicos como id o classname, lo que dificultó su localización. Además, se observó que ciertos atributos, como id y classname, se repetían en diferentes partes de la página, lo que podría llevar a errores en las pruebas automatizadas.
+
+Para superar estos desafíos, se recurrió a la identificación de elementos a través de XPaths. Aunque este método puede ser más complejo y susceptible a cambios en la estructura de la página, permitió la correcta identificación y manipulación de los elementos necesarios para las pruebas.
+
+Este hallazgo subraya la importancia de seguir buenas prácticas en el desarrollo web, como la asignación de atributos únicos a los elementos, para facilitar la implementación de pruebas automatizadas."
+
