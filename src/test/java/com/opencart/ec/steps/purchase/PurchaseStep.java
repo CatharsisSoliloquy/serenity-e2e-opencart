@@ -12,10 +12,10 @@ public class PurchaseStep extends StorePage {
         product1.click();
     }
 
+    @Step("Agregar Producto 2")
     public void addProduct2() {
         product2.click();
     }
-
 
     @Step("Mostrar Carrito")
     public void showCart() {
@@ -77,7 +77,6 @@ public class PurchaseStep extends StorePage {
         postCodeInput.sendKeys(postcode);
     }
 
-    //Revisar que esto funcione si no cambiar
     @Step("Seleccionar país")
     public void selectCountry() {
         countrySelect.click();
@@ -98,19 +97,15 @@ public class PurchaseStep extends StorePage {
         regionOption.click();
     }
 
-
     @Step("Continuar al metodo de entrega")
     public void continueDeliveryData() {
         btnContinueForm.click();
     }
 
-
-
     @Step("Continuar al metodo de pago")
     public void continuePaymentMethodDelivery() {
         btnContinuePaymentMethodDelivery.click();
     }
-
 
     @Step("Aceptar terminos y condiciones")
     public void acceptTermsConditions() {
@@ -126,6 +121,5 @@ public class PurchaseStep extends StorePage {
     public void confirmOrder() {
         btnConfirmOrder.click();
     }
-
 
 }
