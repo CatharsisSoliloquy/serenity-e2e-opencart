@@ -56,7 +56,7 @@ serenity.browser.maximized=true
 >
 
 
-También puedes encontrar este informe dentro del proyecto. Se encuentra en el directorio dentro `serenity-e2e-opencart/target/site/serenity/index.html`.
+También puedes encontrar este informe dentro del proyecto, se encuentra en el directorio dentro `serenity-e2e-opencart/target/site/serenity/index.html` o ejecutar el comando `mvn serenity:aggregate` el cual genera un informe de las pruebas ejecutadas.
 
 
 ## Hallazgos y conclusiones
